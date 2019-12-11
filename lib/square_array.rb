@@ -3,7 +3,7 @@ def square_array(array)
   squared_array = []
   while array[index] do
   squared_array.push(array[index]**2)
-  index=index+1
+  index += 1
   #why does it not work if i put index+=
   end
   p squared_array
